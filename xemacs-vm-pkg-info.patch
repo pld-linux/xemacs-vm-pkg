@@ -1,6 +1,6 @@
 diff -Nur xemacs-vm-pkg-1.22/man/vm/vm.texi xemacs-vm-pkg-1.22.new/man/vm/vm.texi
---- xemacs-vm-pkg-1.22/man/vm/vm.texi	Fri Feb 26 17:01:48 1999
-+++ xemacs-vm-pkg-1.22.new/man/vm/vm.texi	Sun Mar 26 14:43:14 2000
+--- xemacs-vm-pkg-1.22/man/vm/vm.texinfo	Fri Feb 26 17:01:48 1999
++++ xemacs-vm-pkg-1.22.new/man/vm/vm.texinfo	Sun Mar 26 14:43:14 2000
 @@ -1,9 +1,18 @@
  \input texinfo  @comment -*-Text-*-
 -@setfilename vm.info
