@@ -3,12 +3,12 @@ Summary:	An Emacs mailer
 Summary(pl):	Program pocztowy Emacsa
 Name:		xemacs-vm-pkg
 %define 	srcname	vm
-Version:	7.07
+Version:	7.18
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	ab2c67c7cda2fe8739a1fef49cfc0fc5
+# Source0-md5:	25a353d78f64c2dd2e1001719158a315
 Patch0:		%{name}-info.patch
 URL:		http://www.xemacs.org/
 BuildRequires:	texinfo
