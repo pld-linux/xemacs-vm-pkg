@@ -20,7 +20,7 @@ Conflicts:	xemacs-sumo
 %description
 An Emacs mailer.
 
-%description -l pl 
+%description -l pl
 Program pocztowy Emacsa.
 
 %prep
@@ -38,7 +38,7 @@ cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 mv -f  $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/info/*.info* $RPM_BUILD_ROOT%{_infodir}
 rm -fr $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/info
 
-gzip -9nf lisp/vm/ChangeLog 
+gzip -9nf lisp/vm/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
