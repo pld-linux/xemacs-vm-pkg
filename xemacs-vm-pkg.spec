@@ -3,7 +3,7 @@ Summary:	An Emacs mailer
 Summary(pl):	Program pocztowy Emacsa
 Name:		xemacs-vm-pkg
 %define 	srcname	vm
-Version:	7.03
+Version:	7.07
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
@@ -41,8 +41,6 @@ cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 mv -f  $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/info/*.info* $RPM_BUILD_ROOT%{_infodir}
 rm -fr $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/info
 
-gzip -9nf lisp/vm/ChangeLog
-
 # remove .el file if corresponding .elc file exists
 find $RPM_BUILD_ROOT -type f -name "*.el" | while read i; do test ! -f ${i}c || rm -f $i; done
 
@@ -57,7 +55,7 @@ rm -fr $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc lisp/vm/ChangeLog.gz
+%doc lisp/vm/ChangeLog
 %{_datadir}/xemacs-packages%{_sysconfdir}/*
 %{_infodir}/*
 %dir %{_datadir}/xemacs-packages/lisp/*
