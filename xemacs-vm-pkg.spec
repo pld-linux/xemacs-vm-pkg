@@ -1,8 +1,9 @@
+# todo: fix info patch
 Summary:	An Emacs mailer
 Summary(pl):	Program pocztowy Emacsa
 Name:		xemacs-vm-pkg
 %define 	srcname	vm
-Version:	7.02
+Version:	7.03
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
