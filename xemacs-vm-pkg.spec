@@ -8,6 +8,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
+# Source0-md5:	ab2c67c7cda2fe8739a1fef49cfc0fc5
 Patch0:		%{name}-info.patch
 URL:		http://www.xemacs.org/
 BuildRequires:	texinfo
