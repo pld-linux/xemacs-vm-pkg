@@ -2,7 +2,7 @@ Summary:	An Emacs mailer
 Summary(pl):	An Emacs mailer
 Name:		xemacs-vm-pkg
 %define 	srcname	vm
-Version:	1.26
+Version:	1.28
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
