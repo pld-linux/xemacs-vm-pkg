@@ -29,7 +29,9 @@ Program pocztowy Emacsa.
 %patch0 -p1
 
 %build
-(cd man/vm; awk '/^\\input texinfo/ {print FILENAME}' * | xargs makeinfo)
+cd man/vm
+makeinfo vm.texinfo
+cd ../..
 
 %install
 rm -rf $RPM_BUILD_ROOT
