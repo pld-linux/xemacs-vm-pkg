@@ -2,7 +2,7 @@ Summary:	An Emacs mailer
 Summary(pl):	Program pocztowy Emacsa
 Name:		xemacs-vm-pkg
 %define 	srcname	vm
-Version:	7.00
+Version:	7.02
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
