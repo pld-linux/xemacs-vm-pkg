@@ -2,7 +2,7 @@ Summary:	An Emacs mailer
 Summary(pl):	Program pocztowy Emacsa
 Name:		xemacs-vm-pkg
 %define 	srcname	vm
-Version:	6.96
+Version:	7.00
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
@@ -11,16 +11,19 @@ Group(pl):	Aplikacje/Edytory/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 Patch0:		%{name}-info.patch
 URL:		http://www.xemacs.org/
+BuildRequires:	texinfo
 BuildArch:	noarch
-Conflicts:	xemacs-sumo
 Requires:	xemacs
 Requires:	xemacs-mail-lib-pkg
 Requires:	xemacs-base-pkg
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+Conflicts:	xemacs-sumo
 
 %description
+An Emacs mailer.
 
 %description -l pl 
+Program pocztowy Emacsa.
 
 %prep
 %setup -q -c
