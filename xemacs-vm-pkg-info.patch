@@ -1,22 +1,19 @@
---- xemacs-vm-pkg-7.03/man/vm/vm.texinfo.orig	Thu Mar 21 01:01:37 2002
-+++ xemacs-vm-pkg-7.03/man/vm/vm.texinfo	Sat Apr 20 04:14:52 2002
-@@ -1,9 +1,15 @@
+--- xemacs-vm-pkg-7.07/man/vm/vm.texinfo~	Tue May 28 20:45:36 2002
++++ xemacs-vm-pkg-7.07/man/vm/vm.texinfo	Sun Jun 30 17:20:45 2002
+@@ -1,9 +1,14 @@
  \input texinfo  @comment -*-Text-*-
 -@setfilename vm.info
 +@setfilename ../../info/vm.info
  @settitle VM User's Manual
--@c @direntry
--@c * VM::			A mail reader.
--@c @end direntry
 +@ifinfo
 +@format
 +@dircategory XEmacs Editor:
-+@direntry
+ @direntry
+-* VM::			A mail reader.
 +* VM: (vm).				A mail reader
-+@end direntry
+ @end direntry
 +@end format
 +@end ifinfo
-+
  @iftex
  @finalout
  @end iftex
