@@ -1,25 +1,20 @@
-diff -Nur xemacs-vm-pkg-1.22/man/vm/vm.texi xemacs-vm-pkg-1.22.new/man/vm/vm.texi
---- xemacs-vm-pkg-1.22/man/vm/vm.texinfo	Fri Feb 26 17:01:48 1999
-+++ xemacs-vm-pkg-1.22.new/man/vm/vm.texinfo	Sun Mar 26 14:43:14 2000
-@@ -1,9 +1,18 @@
+--- xemacs-vm-pkg-7.02/man/vm/vm.texinfo.orig	Tue Jan  1 15:12:08 2002
++++ xemacs-vm-pkg-7.02/man/vm/vm.texinfo	Sun Jan 27 20:31:50 2002
+@@ -1,9 +1,16 @@
  \input texinfo  @comment -*-Text-*-
 -@setfilename vm.info
 +@setfilename ../../info/vm.info
  @settitle VM User's Manual
--@c @direntry
--@c * VM::			A mail reader.
--@c @end direntry
 +
 +@ifinfo
 +@format
 +@dircategory XEmacs Editor:
-+@direntry
-+* VM: (vm).				A mail reader.
-+@end direntry
+ @direntry
+-* VM: (vm).     A mail reader.
++* VM: (vm).				A mail reader
+ @end direntry
 +@end format
 +@end ifinfo
-+
-+
 +
  @iftex
  @finalout
