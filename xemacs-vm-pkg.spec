@@ -1,6 +1,6 @@
 # todo: fix info patch
 Summary:	An Emacs mailer
-Summary(pl):	Program pocztowy Emacsa
+Summary(pl.UTF-8):   Program pocztowy Emacsa
 Name:		xemacs-vm-pkg
 %define 	srcname	vm
 Version:	7.18
@@ -22,7 +22,7 @@ Conflicts:	xemacs-sumo
 %description
 An Emacs mailer.
 
-%description -l pl
+%description -l pl.UTF-8
 Program pocztowy Emacsa.
 
 %prep
