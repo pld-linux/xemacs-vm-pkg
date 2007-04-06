@@ -7,7 +7,7 @@ Version:	7.18
 Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
-Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
+Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 # Source0-md5:	25a353d78f64c2dd2e1001719158a315
 Patch0:		%{name}-info.patch
 URL:		http://www.xemacs.org/
