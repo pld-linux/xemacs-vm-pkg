@@ -58,6 +58,6 @@ rm -fr $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc lisp/vm/ChangeLog
 %{_datadir}/xemacs-packages%{_sysconfdir}/*
-%{_infodir}/*
+%{_infodir}/*.info*
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.el*
